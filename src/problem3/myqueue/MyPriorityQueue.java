@@ -6,5 +6,17 @@
  */
 package problem3.myqueue;
 
-public class MyPriorityQueue {
+public class MyPriorityQueue { MyLinkedList linkedList = new MyLinkedList();
+	public void enqueue(Student student){
+		linkedList.addLast(student);
+	}
+
+	public void dequeue(){
+		linkedList.deleteFirst();
+	}
+	public void show(){
+		linkedList.display();
+	}
 }
+
+
