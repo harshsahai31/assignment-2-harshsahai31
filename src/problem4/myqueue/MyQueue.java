@@ -7,7 +7,7 @@
 package problem4.myqueue;
 // to create queue to store pre - order successor
 
-public class MyQueue {
+public class  MyQueue {
 	MyLinkedList linkedList = new MyLinkedList();
 	public int peek(int data){
 		if(linkedList.search(data)==null){

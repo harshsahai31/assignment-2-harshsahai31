@@ -1,6 +1,6 @@
 package problem4.linklist;
 
-public class Linklist {
+public class  Linklist {
 	private Node first;
 	private Node last;
 
