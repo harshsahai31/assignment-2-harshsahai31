@@ -1,6 +1,9 @@
 package problem2.main;
 
 public class MyBinarySearchTree {private TreeNode root;
+
+
+
 	private int countRight;
 
 	public void insert(int data){
