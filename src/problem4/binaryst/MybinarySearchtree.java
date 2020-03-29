@@ -54,7 +54,7 @@ public class MybinarySearchtree {   private MyQueue myQueue;
 		}
 	}
 
-	public void inOrder(TreeNode temp){
+	public  void inOrder(TreeNode temp){
 		if(temp==null){
 			return;
 		}
